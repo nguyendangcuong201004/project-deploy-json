@@ -1,4 +1,4 @@
-const DOMAIN = "https://project-with-json-server";
+const DOMAIN = "https://project-with-json-server.vercel.app";
 
-export const API_PRODUCT = DOMAIN + "-ggfa8cmxa-nguyen-dang-cuongs-projects.vercel.app/products"
-export const API_CATEGORY = DOMAIN + ".vercel.app/category"
+export const API_PRODUCT = DOMAIN + "/products";
+export const API_CATEGORY = DOMAIN + "/category";
