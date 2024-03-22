@@ -9,7 +9,7 @@ export const drawProducts = async () => {
         category = `&category=${params.category}`
     }
     const api = `${API_PRODUCT}?q=${params.q}&_page=${params.page}&_limit=${params.limit}&_sort=${params.sort}&_order=${params.type}${category}`
-    getLimit(`http://localhost:3000/products?q=${params.q}&_sort=${params.sort}&_order=${params.type}${category}`);
+    getLimit(`https://project-with-json-server.vercel.app/products?q=${params.q}&_sort=${params.sort}&_order=${params.type}${category}`);
     fetchAPI(api)
         .then((data) => {
             const arr = data.map((item) => {
