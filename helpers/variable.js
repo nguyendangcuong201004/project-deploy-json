@@ -1,0 +1,17 @@
+export const params = {
+    categoryList: document.querySelector("#category-list"),
+    productList: document.querySelector("#product-list"),
+    input: document.querySelector(".input-search"),
+    button: document.querySelector(".button-search"),
+    prev: document.querySelector(".pagination-prev"),
+    next: document.querySelector(".pagination-next"),
+    num: document.querySelector(".pagination-num"),
+    selection: document.querySelector("#selection"),
+    q: "",
+    page: 1,
+    limit: 6,
+    many: "",
+    sort: "",
+    type: "",
+    category: "",
+};

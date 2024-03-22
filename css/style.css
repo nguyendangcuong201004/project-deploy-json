@@ -1,0 +1,122 @@
+/* CSS cho danh muc san pham */
+
+.category-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.category-list .category-item {
+    background-color: #FFC356;
+    width: calc((100% / 8 - 10px));
+    margin: 5px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 520;
+    padding: 20px 30px;
+    border-radius: 12px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    cursor: pointer;
+}
+
+/* CSS cho danh muc san pham */
+
+
+
+/* CSS cho danh sach san pham */
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px
+}
+
+.product-list .product-item {
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 5px;
+    width: calc(100% / 6 - 10px);
+    position: relative;
+    cursor: pointer;
+}
+
+.product-list .product-item:hover {
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+}
+
+.product-list .product-item .inner-img img {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+
+.product-list .product-item .inner-info {
+    padding: 15px;
+}
+
+.product-list .product-item .inner-info .inner-title {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.product-list .product-item .inner-info .inner-cost {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.product-list .product-item .inner-info .inner-price {
+    font-size: 20px;
+    font-weight: 600;
+    color: red;
+}
+
+.product-list .product-item .inner-discount {
+    position: absolute;
+    background-color: #FFA500;
+    padding: 10px 15px;
+    border-radius: 5px;
+    top: 10px;
+    right: 10px;
+    color: #fff;
+}
+
+/* CSS cho danh sach san pham */
+
+
+
+/* CSS tinh năng phân trang */
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.pagination .pagination-prev {
+    background-color: #FFA500;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.pagination .pagination-next {
+    background-color: #FFA500;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.pagination .pagination-num {
+    font-size: 20px;
+    margin: 0 10px;
+}
+
+/* CSS tinh năng phân trang */
